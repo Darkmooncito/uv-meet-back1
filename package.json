@@ -1,0 +1,24 @@
+{
+  "name": "uv-meet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkmooncito/uv-meet-back1.git"
+  },
+  "author": "joshua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkmooncito/uv-meet-back1/issues"
+  },
+  "homepage": "https://github.com/Darkmooncito/uv-meet-back1#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
