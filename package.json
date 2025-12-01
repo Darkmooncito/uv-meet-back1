@@ -1,10 +1,13 @@
 {
   "name": "uv-meet",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend para uv-meet",
   "main": "server.ts",
   "scripts": {
-    "test": "npm run dev"
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --respawn --transpile-only server.ts",
+    "test": "npm run dev",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,9 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
   }
 }
