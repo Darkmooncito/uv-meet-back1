@@ -10,7 +10,7 @@
     "build": "tsc"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/Darkmooncito/uv-meet-back1.git"
   },
   "author": "joshua",
